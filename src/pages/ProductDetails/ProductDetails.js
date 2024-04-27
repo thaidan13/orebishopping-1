@@ -7,11 +7,12 @@ import { FaDownload } from "react-icons/fa";
 const tabs = [
   {
     id: "Fiche Technique",
-    label: "Fiche Technique",
+    label: "Thông số kỹ thuật",
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
   {
     id: "Description",
-    label: "Description",
+    label: "Mô tả",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
@@ -70,11 +71,10 @@ const ProductDetails = () => {
             {tabs.map((tab) => (
               <button
                 key={tab.id}
-                className={`${
-                  activeTab === tab.id
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-gray-800"
-                } py-2 px-4  focus:outline-none`}
+                className={`${activeTab === tab.id
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-200 text-gray-800"
+                  } py-2 px-4  focus:outline-none`}
                 onClick={() => handleTabClick(tab.id)}
               >
                 {tab.label}
@@ -110,7 +110,7 @@ const ProductDetails = () => {
                           rel="noopener noreferrer"
                           className="text-white"
                         >
-                          Download PDF
+                          Tải xuống PDF
                         </a>{" "}
                       </button>
                     </div>

@@ -86,19 +86,19 @@ const Banner = () => {
         style={
           i === dotActive
             ? {
-                width: "30px",
-                color: "#262626",
-                borderRight: "3px #262626 solid",
-                padding: "8px 0",
-                cursor: "pointer",
-              }
+              width: "30px",
+              color: "#262626",
+              borderRight: "3px #262626 solid",
+              padding: "8px 0",
+              cursor: "pointer",
+            }
             : {
-                width: "30px",
-                color: "transparent",
-                borderRight: "3px white solid",
-                padding: "8px 0",
-                cursor: "pointer",
-              }
+              width: "30px",
+              color: "transparent",
+              borderRight: "3px white solid",
+              padding: "8px 0",
+              cursor: "pointer",
+            }
         }
       >
         0{i + 1}
@@ -126,19 +126,19 @@ const Banner = () => {
               style={
                 i === dotActive
                   ? {
-                      width: "25px",
-                      color: "#262626",
-                      borderRight: "3px #262626 solid",
-                      cursor: "pointer",
-                      fontSize: "12px",
-                    }
+                    width: "25px",
+                    color: "#262626",
+                    borderRight: "3px #262626 solid",
+                    cursor: "pointer",
+                    fontSize: "12px",
+                  }
                   : {
-                      width: "25px",
-                      color: "transparent",
-                      borderRight: "3px white solid",
-                      cursor: "pointer",
-                      fontSize: "12px",
-                    }
+                    width: "25px",
+                    color: "transparent",
+                    borderRight: "3px white solid",
+                    cursor: "pointer",
+                    fontSize: "12px",
+                  }
               }
             >
               0{i + 1}
@@ -156,7 +156,7 @@ const Banner = () => {
       Subtext:
         "Explore our premium printers and consumables for exceptional results",
       buttonLink: "/offer",
-      buttonText: "Shop Now",
+      buttonText: "Mua ngay",
     },
     {
       imgSrc: bannerImgOne,
@@ -164,7 +164,7 @@ const Banner = () => {
       Subtext:
         "Discover our wide range of printers and consumables designed for professional printing needs.",
       buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonText: "Giới thiệu",
     },
     {
       imgSrc: bannerImgOne,
@@ -172,7 +172,7 @@ const Banner = () => {
       Subtext:
         "Maximize productivity with our advanced printers and high-quality consumables. ",
       buttonLink: "/contact",
-      buttonText: "Contact-us",
+      buttonText: "Liên hệ",
     },
 
     // Add more slides as needed
